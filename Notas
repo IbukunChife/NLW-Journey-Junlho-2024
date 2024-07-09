@@ -1,0 +1,28 @@
+### git init
+
+### criar arquivo .gitignore
+### adiconar os elementos para ignorar
+
+### instalar um ambiente virtual se não tem instalado.
+pip3 install virtualenv
+
+### criar o ambiente virtual
+python3 -m venv venv
+
+### instalar o Framework
+pip3 install Flask
+
+### lembrando a cada pasta criada um arquivo __init__.py tem que ser criado
+
+### Ao decorrer da implementação ou a execução do servido aparece arquivo de
+### de compilação, usar a seguinte codigo dentro da pasta .vscode no arquivo setting.json o seguinte codigo
+
+```json
+{
+  "files.exclude":{
+    "**/*.pyc":{"when":"$(basename).py"},
+    "**/__pycache__":true,
+    "**/*.pytest_cache":true,
+  }
+}
+```
