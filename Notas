@@ -14,8 +14,8 @@ pip3 install Flask
 
 ### lembrando a cada pasta criada um arquivo __init__.py tem que ser criado
 
-### Ao decorrer da implementação ou a execução do servido aparece arquivo de
-### de compilação, usar a seguinte codigo dentro da pasta .vscode no arquivo setting.json o seguinte codigo
+
+### Ao decorrer da implementação ou a execução do servido aparece arquivo de compilação, usar a seguinte codigo dentro da pasta .vscode no arquivo setting.json o seguinte codigo
 
 ```json
 {
@@ -26,3 +26,6 @@ pip3 install Flask
   }
 }
 ```
+
+### No que diz respeito a rota podermos fazer uso no flask de Blueprint que nomear certinho a nossas rotas ou seja faz bem o gerenciamento das nossas rotas
+
