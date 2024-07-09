@@ -29,3 +29,6 @@ pip3 install Flask
 
 ### No que diz respeito a rota podermos fazer uso no flask de Blueprint que nomear certinho a nossas rotas ou seja faz bem o gerenciamento das nossas rotas
 
+
+### Para executar o pytest é precisa usar um -s -v para a gente ver as informaçoes mais verbosa do pytest
+pytest -s -v src/main/models/repositories/trips_repository_test.py
