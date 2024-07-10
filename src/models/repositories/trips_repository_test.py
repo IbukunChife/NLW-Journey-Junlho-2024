@@ -2,7 +2,7 @@ import pytest # type: ignore
 import uuid
 from datetime import datetime, timedelta
 from .trips_repository import TripsRepository
-from src.main.models.settings.db_connection_handler import db_connection_handler
+from src.models.settings.db_connection_handler import db_connection_handler
 
 db_connection_handler.connect()
 trip_id = str(uuid.uuid4())
