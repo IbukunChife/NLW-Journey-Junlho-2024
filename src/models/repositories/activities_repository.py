@@ -10,10 +10,10 @@ class ActivitiesRepository:
         cursor = self.__conn.cursor()
         cursor.execute(
             """
-            INSERT INTO activity 
+            INSERT INTO activities 
                 (id, trip_id, title, occurs_at)
             VALUES 
-                (?, ?, ?)
+                (?, ?, ?, ?)
             """,(
                 activity_infos["id"],
                 activity_infos["trip_id"],
