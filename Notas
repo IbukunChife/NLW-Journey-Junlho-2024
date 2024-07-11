@@ -32,3 +32,6 @@ pip3 install Flask
 
 ### Para executar o pytest é precisa usar um -s -v para a gente ver as informaçoes mais verbosa do pytest
 pytest -s -v src/main/models/repositories/trips_repository_test.py
+
+
+### para mexer com email ficticio existe um site Ethereal que lhe permite de criar um conta para receber os emails
